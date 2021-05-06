@@ -11,10 +11,9 @@
 
 <p align="center">
   <a href="https://github.com/zy84338719/tiangou-note">
-    <img src="https://github.com/zy84338719/tiangou-note/actions/workflows/build.yml/badge.svg?branch=main"
-         alt="travis">
+  <a href="https://codecov.io/gh/zy84338719/tiangou-note">
+    <img src="https://img.shields.io/codecov/c/github/zy84338719/tiangou-note?style=flat-square">
   </a>
-  <a href="https://codecov.io/gh/zy84338719/tiangou-note"><img src="https://img.shields.io/codecov/c/github/zy84338719/tiangou-note?style=flat-square"></a>
   <a href="https://goreportcard.com/report/github.com/zy84338719/tiangou-note">
       <img src="https://goreportcard.com/badge/github.com/zy84338719/tiangou-note?style=flat-square">
   </a>
