@@ -1,0 +1,8 @@
+@font-face {
+    font-family:FontStyle;
+    src:url('./blog.woff');
+}
+
+* {
+    font-family: FontStyle;
+}
