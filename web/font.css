@@ -1,8 +1,10 @@
 @font-face {
     font-family:FontStyle;
-    src:url('./blog.woff');
+    src:url('./HYTiaoTiao.ttf');
 }
 
 * {
-    font-family: FontStyle;
+    font-family: FontStyle, serif;
+    src: url('./MFShangYa.ttf');
+    format('truetype');
 }
