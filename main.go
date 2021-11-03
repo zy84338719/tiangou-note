@@ -37,8 +37,8 @@ func main() {
 	http.Handle("/", AssetHandler("", addr, "web"))
 	http.HandleFunc("/data/tiangou", func(w http.ResponseWriter, r *http.Request) { //nolint:nolintlint,wsl
 		rand.Seed(time.Now().Unix())
-		i := rand.Int() % len(tg)                                  //nolint:gosec
-		w.Write([]byte("document.write(\"" + tg[i].Value + "\")")) //nolint:errcheck
+		i := rand.Int() % len(tg)    //nolint:gosec
+		w.Write([]byte(tg[i].Value)) //nolint:errcheck
 	})
 	err = http.ListenAndServe(":59998", nil)
 	if err != nil {
