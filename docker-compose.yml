@@ -1,0 +1,15 @@
+version: "3"
+services:
+  tiangou:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: tiangou_server
+    restart: always
+    ports:
+      - '59998:59998'
+#    networks:
+#      - base
+#networks:
+#  base:
+#    external: true
